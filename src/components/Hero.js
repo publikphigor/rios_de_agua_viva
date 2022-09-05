@@ -34,7 +34,7 @@ export default function Hero() {
           been the industry's standard dummy text ever since the 1500s, when an unknown printer took
           a galley of type and scrambled it to make a type specimen book.
         </p>
-        <div>
+        <div className="flex items-center gap-4">
           <HeroBtn name="Read More" link="/#services" />
           <HeroBtnSec name="Worship with us" link="/#footer" />
         </div>

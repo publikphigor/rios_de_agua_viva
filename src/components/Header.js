@@ -22,6 +22,7 @@ export default function Header() {
         <h1 className="text-3xl font-medium">Church name</h1>
       </div>
       <nav
+        onClick={() => setOpen(!open)}
         className={`absolute h-auto bg-primary md:bg-inherit  left-0 md:top-0 w-full md:w-auto p-[24px] md:p-0 md:static md:block md:z-auto z-[-1] transition-all duration-300 ease-in ${
           open ? "top-[78px] opacity-100" : "top-[-500px]  md:opacity-100 opacity-0"
         }`}

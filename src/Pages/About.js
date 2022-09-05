@@ -1,3 +1,5 @@
+import aboutImage from "../assets/john.jpg";
+
 function Card(props) {
   return (
     <div className="p-[24px] rounded-md text-white bg-primary">
@@ -11,7 +13,9 @@ export default function About() {
   return (
     <section className="w-full px-[24px] md:w-4/5 mx-auto pt-[50px]">
       <div className="flex flex-col items-center justify-start gap-5 md:flex-row md:justify-between">
-        <div className="w-full md:w-1/2"></div>
+        <div className="w-full md:w-1/2">
+          <img src={aboutImage} alt="About Image" />
+        </div>
         <div className="w-full md:w-1/2">
           <h1 className="pb-2 mb-2 text-5xl font-semibold border-b-4 text-primary border-primary">
             Gracias por visitarnos
