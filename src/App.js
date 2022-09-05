@@ -12,7 +12,7 @@ function App() {
     <Router>
       <div className="p-0 m-0 text-base md:text-xl">
         <Header />
-        <div className="mt-[100px]"></div>
+        <div className="mt-[150px]"></div>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

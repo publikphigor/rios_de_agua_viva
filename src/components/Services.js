@@ -6,7 +6,7 @@ export default function Services() {
       <h2 className="text-4xl font-semibold text-primary font-dancing-script">
         Horarios de cultos.
       </h2>
-      <div className="w-full md:w-[400px] mx-auto mt-5 bg-secondary text-white overflow-hidden rounded-md text-center">
+      <div className="w-full md:w-[600px] mx-auto mt-5 bg-secondary text-white overflow-hidden rounded-md text-center">
         <div className="flex border-b border-white">
           <div className="w-2/5 p-3">Día y Hora</div>
           <div className="w-3/5 p-3 bg-primary">Programa</div>
