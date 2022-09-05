@@ -24,8 +24,8 @@ function HeroBtnSec(props) {
 
 export default function Hero() {
   return (
-    <div className="pt-[200px] pb-[100px] flex flex-col justify-between w-full">
-      <div className="flex flex-col items-center w-full px-[24px] sm:w-4/5 sm:px-0 gap-6 mx-auto">
+    <div className=" py-[100px] flex flex-col justify-between w-full">
+      <div className="flex flex-col items-center w-full px-[24px] md:w-4/5 md:px-0 gap-6 mx-auto">
         <h1 className="text-5xl font-bold text-center">
           Welcome to Church <br /> We are glad to have you in our midst!
         </h1>
@@ -35,8 +35,8 @@ export default function Hero() {
           a galley of type and scrambled it to make a type specimen book.
         </p>
         <div>
-          <HeroBtn name="Read More" link="#" />
-          <HeroBtnSec name="Worship with us" link="#" />
+          <HeroBtn name="Read More" link="/#services" />
+          <HeroBtnSec name="Worship with us" link="/#footer" />
         </div>
       </div>
     </div>
