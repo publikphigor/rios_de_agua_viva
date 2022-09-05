@@ -24,9 +24,9 @@ function HeroBtnSec(props) {
 
 export default function Hero() {
   return (
-    <div className=" py-[100px] flex flex-col justify-between w-full">
+    <div className=" py-[50px] md:py-[100px] flex flex-col justify-between w-full">
       <div className="flex flex-col items-center w-full px-[24px] md:w-4/5 md:px-0 gap-6 mx-auto">
-        <h1 className="text-5xl font-bold text-center">
+        <h1 className="text-5xl font-normal text-center md:font-bold">
           Welcome to Church <br /> We are glad to have you in our midst!
         </h1>
         <p className="text-center">
