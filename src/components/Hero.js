@@ -24,10 +24,10 @@ function HeroBtnSec(props) {
 
 export default function Hero() {
   return (
-    <div className=" py-[50px] md:py-[100px] flex flex-col justify-between w-full">
+    <div className=" py-[50px] flex flex-col justify-between w-full">
       <div className="flex flex-col items-center w-full px-[24px] md:w-4/5 md:px-0 gap-6 mx-auto">
-        <h1 className="text-3xl font-normal text-center md:text-5xl md:font-bold">
-          Welcome to Church <br /> We are glad to have you in our midst!
+        <h1 className="text-5xl font-bold text-center md:text-8xl md:font-bold font-dancing-script">
+          Bienvenido a la iglesia <br /> Estamos encantados de tenerte entre nosotros!
         </h1>
         <p className="text-center">
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
@@ -35,8 +35,8 @@ export default function Hero() {
           a galley of type and scrambled it to make a type specimen book.
         </p>
         <div className="flex items-center gap-4">
-          <HeroBtn name="Read More" link="/#services" />
-          <HeroBtnSec name="Worship with us" link="/#footer" />
+          <HeroBtn name="Lee Mas" link="/#services" />
+          <HeroBtnSec name="Adorar con nosotros" link="/#footer" />
         </div>
       </div>
     </div>

@@ -3,7 +3,7 @@ import aboutImage from "../assets/john.jpg";
 function Card(props) {
   return (
     <div className="p-[24px] rounded-md text-white bg-primary">
-      <h2 className="mb-4 text-3xl">{props.name}</h2>
+      <h2 className="mb-4 text-4xl font-bold font-dancing-script">{props.name}</h2>
       <p>{props.text}</p>
     </div>
   );
@@ -17,8 +17,8 @@ export default function About() {
           <img src={aboutImage} alt="About Image" />
         </div>
         <div className="w-full md:w-1/2">
-          <h1 className="pb-2 mb-2 text-5xl font-semibold border-b-4 text-primary border-primary">
-            Gracias por visitarnos
+          <h1 className="pb-2 mb-2 text-5xl font-semibold border-b-4 text-primary border-primary font-dancing-script">
+            Acerca De Nosotros
           </h1>
           <p>
             Dios te bendiga, Somos Segunda Iglesia Rios de Agua Viva, si tu vives en el area de

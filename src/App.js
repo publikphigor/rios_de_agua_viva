@@ -10,7 +10,7 @@ import Declaration from "./Pages/Declaration";
 function App() {
   return (
     <Router>
-      <div className="p-0 m-0 text-base md:text-base">
+      <div className="p-0 m-0 text-base md:text-xl">
         <Header />
         <div className="mt-[100px]"></div>
         <Routes>

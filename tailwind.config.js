@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#26a69a",
+        primary: "#4472C4",
         secondary: "#212121",
       },
       width: {
@@ -13,6 +13,9 @@ module.exports = {
       },
       height: {
         "fit-content": "fit-content",
+      },
+      fontFamily: {
+        "dancing-script": [`"Dancing Script"`, "sans-serif"],
       },
     },
   },

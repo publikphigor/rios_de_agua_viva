@@ -3,11 +3,13 @@ import React from "react";
 export default function Services() {
   return (
     <div id="services" className="mx-auto text-center w-4/5 mt-[40px]">
-      <h2 className="text-2xl font-semibold">Horarios de cultos.</h2>
+      <h2 className="text-4xl font-semibold text-primary font-dancing-script">
+        Horarios de cultos.
+      </h2>
       <div className="w-full md:w-[400px] mx-auto mt-5 bg-secondary text-white overflow-hidden rounded-md text-center">
         <div className="flex border-b border-white">
-          <div className="w-2/5 p-3">Day & Time</div>
-          <div className="w-3/5 p-3 bg-primary">Program</div>
+          <div className="w-2/5 p-3">Día y Hora</div>
+          <div className="w-3/5 p-3 bg-primary">Programa</div>
         </div>
         <div className="flex">
           <div className="w-2/5 p-3">
