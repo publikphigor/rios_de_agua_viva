@@ -75,21 +75,121 @@ export default function Declaration() {
           deberes espirituales, se recuerda a los cristianos una obra importante que ya tuvo
           lugar en el corazón del creyente.`,
     },
+    {
+      title: `EL BAUTISMO EN EL ESPÍRITU SANTO (*una de
+        las cuatro doctrinas cardinales).`,
+      message: `Todos los creyentes pueden recibir el bautismo en el Espíritu Santo y, por tanto,
+      deben esperar y buscar ardientemente la promesa del Padre, según el mandato de
+      nuestro Señor Jesucristo. (Algunas referencias en la Biblia hablan del “Espíritu Santo
+      y fuego”. El fuego, imagen comúnmente asociada con el Espíritu Santo, sugiere la
+      acción limpiadora y purificadora, y el celo del Espíritu Santo que continúa la obra del
+      crecimiento espiritual comenzada en la salvación). El bautismo en el Espíritu Santo
+      era la experiencia normal de todos los cristianos de la iglesia cristiana primitiva.`,
+    },
+    {
+      title: `LA EVIDENCIA FÍSICA INICIAL DEL BAUTISMO
+      EN EL ESPÍRITU SANTO`,
+      message: `El bautismo de los cristianos en el Espíritu Santo está acompañado de la evidencia
+      física inicial de hablar en otras lenguas (lenguas no aprendidas) según el Espíritu les
+      concede expresarse (Hechos 2:4).
+      Esta forma de hablar en lenguas es básicamente la misma que el don de lenguas
+      (1Corintios 12:4-10, 28). La diferencia está en el propósito y el uso. (La manifestación
+      
+      de las lenguas puede ser observada en la vida personal de oración de todo
+      creyente lleno del Espíritu. Sin embargo, el don de lenguas (a veces llamado
+      “mensaje en lenguas”) opera públicamente, por lo general en ambientes de
+      adoración congregacional. Este don es seguido por el don de interpretación de
+      lenguas. Ambos son dados a individuos dentro de la iglesia. Su propósito es el
+      beneficio espiritual del individuo y de la congregación).`,
+    },
+    {
+      title: `LA SANTIFICACIÓN`,
+      message: `La santificación es el acto de separarnos del mal e identificarnos con las cosas
+      buenas, rectas, y moralmente puras. Es un proceso que sucede cuando los
+      cristianos se entregan a Dios (Romanos 12:1, 2; 1 Tesalonicenses 5:23; Hebreos 13:12).`,
+    },
+    {
+      title: `LA IGLESIA Y SU MISIÓN`,
+      message: `La iglesia, es descrita en la Biblia, consiste en todas las personas que han puesto su
+      fe en Jesucristo como único remedio para sus pecados. La Iglesia incluye a todos
+      los cristianos sin límites de edad, raza, sexo, o denominación. Es el cuerpo de Cristo,
+      la morada de Dios por medio del Espíritu Santo. Cristo es la cabeza de la Iglesia. Ha
+      dado toda provisión para el cumplimiento de la gran comisión de la “Iglesia” (Mateo
+      28:19; Marcos 16:15). Cada cristiano es parte integral de esa Iglesia. Los nombres de
+      todos los
+      verdaderos creyentes están inscritos en el cielo (Efesios 1:22, 23, 2:2; Hebreos 12:23).
+      El propósito de Dios con relación a la humanidad es (1) buscar y salvar a los que
+      están perdidos en el pecado (Lucas 19:10), (2) ser adorado por toda la humanidad
+      (Apocalipsis 19:10, 22:9), y (3) identificar un cuerpo unificado de creyentes maduros
+      en la Fe y en el conocimiento semejante a su hijo Jesús (Efesios 4:12).`,
+    },
+    {
+      title: `EL MINISTERIO`,
+      message: `La participación en el ministerio en respuesta a un llamado divino es un mandato
+      bíblico. Así lo ha dispuesto nuestro Señor con el triple propósito de dirigir a la iglesia
+      en: (1) la evangelización del mundo (Marcos 16:15-20), (2) La Adoración a Dios (Juan
+      4:23, 24), y (3) La edificación del cuerpo de Cristianos para que lleven una vida como
+      la de Cristo (Efesios 4:11, 16).`,
+    },
+    {
+      title: `SANIDAD DIVINA (*una de las cuatro
+        doctrinas cardinales)`,
+      message: `La sanidad divina es una parte integrante del evangelio. La liberación de la
+      enfermedad fue provista en la expansión (el sufrimiento y la muerte para que
+      fuésemos reconciliados). La sanidad es un privilegio de todos los creyentes (Isaías
+      53:4,5; Mateo 8:16, 17; Santiago 5:14-16).`,
+    },
+    {
+      title: `LA ESPERANZA BIENAVENTURADA (* una de
+        las cuatro doctrinas cardinales).`,
+      message: `Todos los cristianos que han fallecido un día se levantarán de sus tumbas y se
+      reunirán con el Señor en el aire. Los cristianos que no hayan muerto serán
+      arrebatados junto con aquellos para estar con el Señor. Entonces los cristianos de
+      todas las edades vivirán para siempre con el Señor. La verdad bíblica del inminente
+      regreso del Señor es “la esperanza bienaventurada” (Romanos 8:23; 1 Corintios 15:51,
+      52; 1 Tesalonicenses 4:16, 17; Tito 2:13).`,
+    },
+    {
+      title: `EL REINO MILENARIO DE CRISTO`,
+      message: `La Segunda Venida de Cristo incluye el rapto de todos los cristianos lo cual es
+      nuestra esperanza bienaventurada, y el regreso visible de Cristo con sus santos para
+      reinar en la tierra durante mil años (Zacarías 14:5; Mateo 24:27, 30; Apocalipsis 1:7,
+      19:11-14, 20:1-6). Este reino milenario (mil años) traerá la salvación de Israel como
+      nación (Ezequiel 37:21, 22; Sofonías 3:19, 20; Romanos 11:26, 27) y el establecimiento
+      de la Paz universal (Salmos 72:3-8; Isaías 11:6-9; Miqueas 4:3, 4).`,
+    },
+    {
+      title: `JUICIO FINAL`,
+      message: `Habrá un juicio final en el cual los que murieron en pecado-los que han muerto sin
+      aceptar la salvación de Cristo-serán resucitados y juzgados según la forma en que
+      vivieron. Todo aquel cuyo nombre no se encuentre en el libro de la vida (el registro
+      escrito de las personas que recibieron el perdón de Cristo), junto con el diablo y sus
+      ángeles, la bestia y el falso profeta, serán condenados a recibir un castigo eterno en
+      el lago que arde con fuego y azufre, lo cual constituye la segunda muerte (Mateo
+      25:46; Marcos 9:43-48; Apocalipsis 19:20, 20:11-15, 21:8).`,
+    },
+    {
+      title: `CIELOS NUEVOS Y TIERRA NUEVA`,
+      message: `“Pero nosotros esperamos, según sus promesas, cielos nuevos y tierra nueva, en los
+      cuales mora la justicia” (2 Pedro 3:13; Apocalipsis 21:22).`,
+    },
   ];
 
   return (
-    <div className="w-full mx-auto md:w-4/5 px-[24px] md:px-0 py-[50px]">
-      <h1 className="pb-2 text-5xl font-normal border-b-4 md:font-bold text-primary border-primary">
-        Declaration
+    <div className="w-full mx-auto md:w-4/5 px-[24px] md:px-0 py-[24px]">
+      <h1 className="pb-2 mb-4 text-5xl font-normal border-b-4 md:font-bold text-primary border-primary">
+        Nuestra doctrina
       </h1>
-      <ol>
-        {declarations.map((item, i) => {
-          <li key={i}>
-            {item.title}
-            {item.message}
-          </li>;
-        })}
-      </ol>
+      <div>
+        {declarations.map((item, i) => (
+          <div key={i} className="mb-3">
+            <h2 className="font-semibold 2xl">
+              {i + 1}. {item.title}
+            </h2>
+            <p>{item.message}</p>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
