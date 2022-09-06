@@ -8,7 +8,7 @@ export default function Gallery() {
         Galeria
       </h1>
       <div className="w-full">
-        <ReactPlayer url={galleryVideo} width="100%" height="500px" controls="true" />
+        <ReactPlayer url={galleryVideo} width="100%" height="auto" controls="true" />
       </div>
     </div>
   );
