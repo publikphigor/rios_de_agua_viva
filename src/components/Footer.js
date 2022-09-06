@@ -1,5 +1,59 @@
-import React from "react";
+import React, { useState } from "react";
 import { Wrapper, Status } from "@googlemaps/react-wrapper";
+
+function ContactForm() {
+  const [formData, setFormData] = useState({
+    fullName: "",
+    email: "",
+    message: "",
+  });
+
+  const handleChange = function (e) {
+    const [name, value] = e.target;
+    setFormData((prevFormData) => {
+      return {
+        ...prevFormData,
+        [name]: value,
+      };
+    });
+  };
+
+  const handleSubmit = function (e) {
+    e.preventDefault();
+  };
+
+  return (
+    <form className="w-full text-black" onSubmit={handleSubmit}>
+      <h2 className="mb-3 text-3xl text-white">Enviar un mensaje</h2>
+      <input
+        type="text"
+        placeholder="Introduzca su nombre"
+        className="w-full px-2 py-3 mb-3 text-black rounded-sm"
+        onChange={handleChange}
+        name="fullName"
+        value={formData.fullName}
+      />
+      <input
+        type="email"
+        placeholder="Ingrese su dirección de correo electrónico"
+        className="w-full px-2 py-3 mb-3 text-black rounded-sm"
+        onChange={handleChange}
+        name="email"
+        value={formData.email}
+      />
+      <textarea
+        placeholder="Mensaje"
+        className="w-full px-2 py-3 mb-3 text-black rounded-sm"
+        onChange={handleChange}
+        name="message"
+        value={formData.message}
+      />
+      <button className="px-8 py-4 text-white transition-all duration-300 rounded cursor-pointer bg-primary hover:bg-secondary hover:border hover:border-white">
+        Enviar Mensaje
+      </button>
+    </form>
+  );
+}
 
 export default function Footer() {
   return (
@@ -11,7 +65,8 @@ export default function Footer() {
         <div className="w-full md:w-1/2">
           <h2 className="mb-3 text-3xl ">Contacto</h2>
           <p className="flex items-center gap-2 mb-1 text-white">
-            <ion-icon name="location-outline"></ion-icon> 234a Sheridan Ave, Perth Amboy NJ. 08861.
+            <ion-icon name="location-outline"></ion-icon> 234a Sheridan Street, Perth Amboy NJ.
+            08861.
           </p>
           <a href="tel:+23412289102" className="flex items-center gap-2 mb-1 hover:text-primary">
             <ion-icon name="call-outline"></ion-icon> 6095158824
@@ -25,25 +80,7 @@ export default function Footer() {
           >
             <ion-icon name="logo-facebook"></ion-icon> Síguenos en Facebook
           </a>
-          <form className="w-full">
-            <h2 className="mb-3 text-3xl">Enviar un mensaje</h2>
-            <input
-              type="text"
-              placeholder="Introduzca su nombre"
-              className="w-full px-1 py-3 mb-3 rounded-sm"
-            />
-            <input
-              type="email"
-              placeholder="Ingrese su dirección de correo electrónico"
-              className="w-full px-1 py-3 mb-3 rounded-sm"
-            />
-            <textarea placeholder="Mensaje" className="w-full px-1 py-3 mb-3 rounded-sm" />
-            <input
-              type="button"
-              value="Enviar Mensaje"
-              className="px-8 py-4 transition-all duration-300 rounded cursor-pointer bg-primary hover:bg-secondary hover:border hover:border-white"
-            />
-          </form>
+          <ContactForm />
         </div>
         <div className="w-full md:w-1/2">
           <h2 className="mb-3 text-3xl">Ver en el mapa</h2>
@@ -58,6 +95,7 @@ export default function Footer() {
         <p>
           Derechos de autor &copy; 2022. Reservados todos los derechos - Iglesia Rios De Agua Viva.
         </p>
+        <p>Sitio web diseñado por John Ugbede.</p>
       </div>
     </footer>
   );
