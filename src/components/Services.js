@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Services() {
   return (
-    <div id="services" className="mx-auto text-center w-full px-[24px] md:px-0 md:w-4/5 mt-[40px]">
+    <div id="services" className="mx-auto text-center w-full px-[24px] mt-[40px]">
       <h2 className="text-4xl font-semibold text-primary font-dancing-script">
         Horarios de cultos.
       </h2>

@@ -1,6 +1,6 @@
 export default function Salvo() {
   return (
-    <div className="w-full mx-auto md:w-4/5 px-[24px] md:px-0 mt-[90px]">
+    <div className="w-full mx-auto px-[24px] mt-[90px]">
       <h1 className="text-4xl font-semibold text-center text-primary font-dancing-script">
         Como ser Salvo
       </h1>

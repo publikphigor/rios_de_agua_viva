@@ -26,7 +26,7 @@ export default function Header() {
   let [open, setOpen] = useState(false);
 
   return (
-    <header className=" bg-white shadow px-[24px] py-[24px] md:px-[10%] w-full flex justify-between items-center md:overflow-hidden fixed top-0 z-[99]">
+    <header className=" bg-white shadow px-[24px] py-[24px] md:px-[24px] w-full flex justify-between items-center md:overflow-hidden fixed top-0 z-[99]">
       <div className="w-5/6 md:w-auto">
         <a className="inline-block text-3xl font-medium" href="/">
           <img src={logo} alt="Iglesia Rios De Agua Viva." className="block w-[100px]" />
@@ -38,7 +38,7 @@ export default function Header() {
           open ? "top-[140px] opacity-100" : "top-[-500px]  md:opacity-100 opacity-0"
         }`}
       >
-        <ul className="flex flex-col items-center justify-end gap-8 md:flex-row">
+        <ul className="flex flex-col items-center justify-end gap-8 md:gap-5 md:flex-row">
           <NavItem link="/" name="Bienvenidos" />
           <NavItem link="/about" name="Acerca De Nosotros" />
           <NavItem link="/gallery" name="Galeria" />
