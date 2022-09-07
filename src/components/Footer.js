@@ -18,8 +18,28 @@ function ContactForm() {
     });
   };
 
-  const handleSubmit = function (e) {
+  const handleSubmit = async function (e) {
     e.preventDefault();
+    const sendDetails = `<h2> New Email From ${formData.fullName}, ${formData.email} </h2> <br> <p> Message : ${formData.message} </p>`;
+    const sendData = {
+      siteName: "Iglesia Rios De Agua Viva",
+      siteSend: sendDetails,
+    };
+
+    const billResponse = await fetch("https://koladele.vickyabiodun.com/MailServer/mail_key2.php", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(sendData),
+    });
+
+    billResponse.text().then((data) => data === "Sent" && alert("Your message has been sent!"));
+    setFormData({
+      fullName: "",
+      email: "",
+      message: "",
+    });
   };
 
   return (
@@ -95,7 +115,16 @@ export default function Footer() {
         <p>
           Derechos de autor &copy; 2022. Reservados todos los derechos - Iglesia Rios De Agua Viva.
         </p>
-        <p>Sitio web diseñado por John Ugbede.</p>
+        <p className="flex items-center justify-center gap-2">
+          Royalty design{" "}
+          <a
+            href="https://www.instagram.com/invites/contact/?i=ssgjprwb9763&utm_content=aftrhus
+"
+          >
+            by John
+          </a>
+          <ion-icon name="logo-instagram"></ion-icon>
+        </p>
       </div>
     </footer>
   );
