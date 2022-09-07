@@ -9,7 +9,7 @@ function ContactForm() {
   });
 
   const handleChange = function (e) {
-    const [name, value] = e.target;
+    const { name, value } = e.target;
     setFormData((prevFormData) => {
       return {
         ...prevFormData,
@@ -34,7 +34,7 @@ function ContactForm() {
       body: JSON.stringify(sendData),
     });
 
-    billResponse.text().then((data) => data === "Sent" && alert("Your message has been sent!"));
+    billResponse.text().then((data) => data === "Sent" && console.log(data));
     setFormData({
       fullName: "",
       email: "",
